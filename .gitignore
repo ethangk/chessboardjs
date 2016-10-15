@@ -1,3 +1,4 @@
 www/.htaccess
 www/.config.php
 *.diff
+node_modules

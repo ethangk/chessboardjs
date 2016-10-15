@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Highlight Legal Moves Example</title>
+
+  <link rel="stylesheet" href="css/chessboard.css" />
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<p><a href="examples#5003">&larr; Back to all examples.</a></p>
+
+<p>Use the <code class="js plain"><a href="docs#config:onMouseoverSquare">onMouseoverSquare</a></code> and <code class="js plain"><a href="docs#config:onMouseoutSquare">onMouseoutSquare</a></code> events to highlight legal squares.
+</p>
+
+<script src="js/chess.js"></script>
+<div id="board" style="width: 400px"></div>
+
+<script src="js/json3.min.js"></script>
+<script src="js/socket-comms.js"></script>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/chessboard.js"></script>
+<script src="js/legal-moves.js"></script>
+</body>
+</html>
